@@ -23,3 +23,8 @@ I need help on sorting employees alphabetically. Will go to office hours for thi
 ![image](https://github.com/parthacrana/emppayrolltrackerchallenge3/assets/122179383/7b8b3404-94b7-4902-accc-5c4df753d7b5)
 
 link to deployed application via github pages -- https://parthacrana.github.io/emppayrolltrackerchallenge3/
+
+![image](https://github.com/parthacrana/emppayrolltrackerchallenge3/assets/122179383/140d725b-47b4-4120-94b1-8c17d315a2d5)
+
+![image](https://github.com/parthacrana/emppayrolltrackerchallenge3/assets/122179383/be73f7e6-f844-400d-a11e-d288f5a43e7b)
+
