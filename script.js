@@ -59,9 +59,10 @@ const getRandomEmployee = function(employeesArray) {
 /* Logs random employee to the console with the required message */
   console.log(`Congratulations to ${randomEmployee.firstName} ${randomEmployee.lastName}  , our random drawing winner!`);
   
-/* Sort employees alphabetically by last name */
-employeesArray.sort((a, b) => a.lastName.localeCompare(b.lastName));
-return employeesArray;
+/* Sort employees alphabetically by last name */    
+// confused on this one -- feedback appreciated 
+
+// employeesArray.sort() 
   
 }
 
