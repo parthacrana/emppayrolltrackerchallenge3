@@ -19,3 +19,7 @@ While loops, isNan, are the most confusing so far. We'll see how it goes...
 Update: Before we fly to NJ, I am turning it in. 
 
 I need help on sorting employees alphabetically. Will go to office hours for this question. As always, thank you in advance for the feedback! 
+
+![image](https://github.com/parthacrana/emppayrolltrackerchallenge3/assets/122179383/7b8b3404-94b7-4902-accc-5c4df753d7b5)
+
+link to deployed application via github pages -- https://parthacrana.github.io/emppayrolltrackerchallenge3/
