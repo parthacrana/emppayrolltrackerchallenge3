@@ -2,7 +2,7 @@
 // // Get a reference to the #add-employees-btn element
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
-// Collect employee data
+// Collect employee data from user input 
 const collectEmployees = function() {
   // TODO: Get user input to create and return an array of employee objects
   const employeesArray = [];
@@ -13,7 +13,7 @@ const collectEmployees = function() {
     const lastName = prompt("Enter employees last name:")
     let salary = prompt("Enter employees salary:")
   
-/* Convert salary to a number seperated by commas, must be a number */
+/* Convert salary to a number seperated by commas, must be a number, number format  */
     salary = isNaN(Number(salary)) ? 0 : Number(salary);
 
 /* This is to create an employee object -- key value pairs */
@@ -35,7 +35,7 @@ const collectEmployees = function() {
 return employeesArray;
 }
 
-// Display the average salary
+// Display the average salary of all employees, depending on number of employees entered by user
 const displayAverageSalary = function(employeesArray) {
   const totalSalary = employeesArray.reduce((acc, employee) => acc + employee.salary, 0);
   const averageSalary = totalSalary / employeesArray.length;
@@ -44,7 +44,7 @@ const displayAverageSalary = function(employeesArray) {
   console.log(`The average employee salary between our ${employeesArray.length} employee(s) is: $${(totalSalary / employeesArray.length).toLocaleString(undefined, {maximumFractionDigits: 2})}`);
 }
 
-// Select a random employee
+// Select a random employee for the random drawing contest -- math.floor to round down, math.random to pick a random value 
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
   const randomIndex = Math.floor(Math.random() * employeesArray.length);
@@ -56,10 +56,10 @@ const getRandomEmployee = function(employeesArray) {
 //   );
 // }
 
-/* Logs random employee to the console with the required message */
+/* Logs random employee to the console with the required message for acceptance criteria -- random drawing contest */
   console.log(`Congratulations to ${randomEmployee.firstName} ${randomEmployee.lastName}  , our random drawing winner!`);
   
-/* Sort employees alphabetically by last name */    
+/* Sort employees alphabetically by last name           sort ato b?? formatting question in office hours */    
 // confused on this one -- feedback appreciated 
 
 // employeesArray.sort() 
@@ -67,7 +67,7 @@ const getRandomEmployee = function(employeesArray) {
 }
 
 
-/*
+/*                DONT TOUCH CODE BELOW 
   =========================================================================================================================================================
   STARTER CODE
   Do not modify any of the code below this line:
